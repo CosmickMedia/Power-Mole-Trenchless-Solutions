@@ -14,16 +14,22 @@
 								<div class="l-constrain">
 									<div class="columns columns--vertical-center">
 										<div class="content">
+											<?php if (get_sub_field('slide_pretitle')) : ?>
+											<p class="pre-heading">
+												<?php the_sub_field('slide_pretitle'); ?>
+											</p>
+											<?php endif; ?>
+												
 											<?php if (get_sub_field('slide_heading')) : ?>
-												<h1><?php the_sub_field('slide_heading') ?></h1>
+											<h1><?php the_sub_field('slide_heading') ?></h1>
 											<?php endif; ?>
 											
 											<?php if (get_sub_field('slide_content')) : ?>
-												<?php the_sub_field('slide_content') ?>
+											<div class="hero__content"><?php the_sub_field('slide_content') ?></div>
 											<?php endif; ?>
 
 											<?php if (get_sub_field('slide_button_text')) : ?>
-												<a href="<?php the_sub_field('slide_button_link') ?>" class="button button--accent-color"><?php the_sub_field('slide_button_text') ?></a>
+											<a href="<?php the_sub_field('slide_button_link') ?>" class="button button--accent-color"><?php the_sub_field('slide_button_text') ?></a>
 											<?php endif; ?>
 										</div>
 									</div>
