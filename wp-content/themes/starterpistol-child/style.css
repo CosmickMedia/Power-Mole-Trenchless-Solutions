@@ -1193,7 +1193,7 @@ object {
 }
 
 .main-navigation a {
-	color: var(--copy);
+	color: #fff;
     display: block;
     font-weight: 300;
     text-decoration: none;
@@ -1582,9 +1582,12 @@ a#popup-sp__cta,
 	padding: 2em 1em;
 }
 
+.pre-heading,
 .section .pre-heading {
-	color: #fff;
+	color: var(--tertiary-color);
+	font-size: var(--base-font);
 	margin: 0;
+	text-transform: uppercase;
 }
 
 .section h2 {
@@ -1824,7 +1827,7 @@ a#popup-sp__cta,
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background-color: transparent;
+	background-color: var(--primary-color);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex; 
