@@ -12,11 +12,13 @@ get_header(); ?>
 
 <?php get_template_part('template-parts/hero'); ?>
 
-<?php get_template_part('template-parts/section-fifty-fifty'); ?>
+<?php get_template_part('template-parts/section-about'); ?>
+
+<?php get_template_part('template-parts/section-products'); ?>
 
 <?php get_template_part('template-parts/section-testimonials'); ?>
 
-<?php get_template_part('template-parts/section-newsletter'); ?>
+<?php get_template_part('template-parts/section-contact'); ?>
 
 <?php get_template_part('template-parts/pre-footer'); ?>
 
