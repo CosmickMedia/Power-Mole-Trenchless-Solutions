@@ -322,3 +322,301 @@
 [23-Jan-2025 00:10:41 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
 [23-Jan-2025 00:10:41 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
 [23-Jan-2025 00:10:41 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 02:51:54 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 02:51:54 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 02:51:54 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 02:52:04 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 02:52:04 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 02:52:04 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 18:28:07 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 18:28:07 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 18:28:07 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 18:28:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_create' at line 3 for query SELECT
+					id,
+					row_number() OVER (ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_created_at,
+					date_updated_gmt AS order_updated_at,
+					currency,
+					total_amount,
+					payment_method,
+					payment_method_title
+				FROM wp_wc_orders
+				WHERE
+					type = 'shop_order'
+					AND status IN ('wc-completed', 'wc-refunded')
+				ORDER BY date_created_gmt ASC
+				LIMIT 20; made by do_action_ref_array('woocommerce_tracker_send_event'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Tracker::send_tracking_data, WC_Tracker::get_tracking_data, WC_Tracker::get_order_snapshot, WC_Tracker::get_order_data
+[23-Jan-2025 18:28:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_create' at line 3 for query SELECT
+					id,
+					row_number() OVER (ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_created_at,
+					date_updated_gmt AS order_updated_at,
+					currency,
+					total_amount,
+					payment_method,
+					payment_method_title
+				FROM wp_wc_orders
+				WHERE
+					type = 'shop_order'
+					AND status IN ('wc-completed', 'wc-refunded')
+				ORDER BY date_created_gmt DESC
+				LIMIT 20; made by do_action_ref_array('woocommerce_tracker_send_event'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Tracker::send_tracking_data, WC_Tracker::get_tracking_data, WC_Tracker::get_order_snapshot, WC_Tracker::get_order_data
+[23-Jan-2025 20:38:18 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:38:18 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:38:18 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:38:28 UTC] Automatic updates starting...
+[23-Jan-2025 20:38:29 UTC]   Automatic plugin updates starting...
+[23-Jan-2025 20:38:29 UTC]   Automatic plugin updates complete.
+[23-Jan-2025 20:38:30 UTC] Automatic updates complete.
+[23-Jan-2025 20:38:53 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:38:53 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:38:53 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:39:05 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:39:05 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:39:08 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:39:08 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:39:08 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:39:09 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:39:09 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:39:37 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:39:37 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:39:37 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:43:27 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:43:27 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:43:27 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:44:36 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:44:36 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:44:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:44:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:44:53 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:44:53 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:44:53 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:44:58 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(103): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#7 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#12 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:45:07 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:45:07 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:45:07 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:47:39 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:47:39 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:47:55 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:47:55 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:47:55 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:48:10 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:48:10 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:48:10 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:48:13 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:48:13 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:48:13 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
+[23-Jan-2025 20:48:27 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:48:27 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php:189
+Stack trace:
+#0 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(43): MWP_EventListener_PublicRequest_CommandListener->findActivePublicKey('managewp_173586...')
+#1 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php(88): MWP_EventListener_PublicRequest_CommandListener->handleImageCheck('managewp_173586...')
+#2 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(157): MWP_EventListener_PublicRequest_CommandListener->onPublicRequest(Object(MWP_Event_PublicRequest), 'kernel.public_r...', Object(Symfony_EventDispatcher_EventDispatcher))
+#3 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/Symfony/EventDispatcher/EventDispatcher.php(48): Symfony_EventDispatcher_EventDispatcher->doDispatch(Array, 'kernel.public_r...', Object(MWP_Event_PublicRequest))
+#4 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/Worker/Kernel.php(70): Symfony_EventDispatcher_EventDispatcher->dispatch('kernel.public_r...', Object(MWP_Event_PublicRequest))
+#5 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(748): MWP_Worker_Kernel->handleRequest(Object(MWP_Worker_Request), Array, true)
+#6 /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/init.php(761): mwp_init()
+#7 /Users/aramirez/GitHub/PowerMole/wp-content/mu-plugins/0-worker.php(22): include_once('/Users/aramirez...')
+#8 /Users/aramirez/GitHub/PowerMole/wp-settings.php(451): include_once('/Users/aramirez...')
+#9 /Users/aramirez/GitHub/PowerMole/wp-config.php(95): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/PowerMole/wp-load.php(50): require_once('/Users/aramirez...')
+#11 /Users/aramirez/GitHub/PowerMole/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#12 /Users/aramirez/GitHub/PowerMole/index.php(17): require('/Users/aramirez...')
+#13 {main}
+  thrown in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/worker/src/MWP/EventListener/PublicRequest/CommandListener.php on line 189
+[23-Jan-2025 20:48:51 UTC] PHP Warning:  Constant SL_APP_API_URL already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 233
+[23-Jan-2025 20:48:51 UTC] PHP Warning:  Constant SL_PRODUCT_ID already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 235
+[23-Jan-2025 20:48:51 UTC] PHP Warning:  Constant SL_INSTANCE already defined in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/slide-any-post/php/slide-any-post-admin.php on line 238
