@@ -7,13 +7,15 @@
                 $desktop_images = array(); // Array to store desktop images
                 while (have_rows('slides')) : the_row();
                     $slide_image = get_sub_field('slide_image');
+					$media_image = get_stylesheet_directory_uri().'/images/stingerside-transparent.png';
+				
                     if ($slide_image && !in_array($slide_image, $desktop_images)) :
                         ?>
                         <li class="glide__slide" style="background-image: url('<?php echo esc_url($slide_image); ?>');">
                             <div class="inner">
 								<div class="l-constrain">
 									<div class="columns columns--vertical-center">
-										<div class="content">
+										<div class="column-half content">
 											<?php if (get_sub_field('slide_pretitle')) : ?>
 											<p class="pre-heading">
 												<?php the_sub_field('slide_pretitle'); ?>
@@ -31,6 +33,9 @@
 											<?php if (get_sub_field('slide_button_text')) : ?>
 											<a href="<?php the_sub_field('slide_button_link') ?>" class="button button--accent-color"><?php the_sub_field('slide_button_text') ?></a>
 											<?php endif; ?>
+										</div>
+										<div class="column-half media">
+											<img src="<?php echo $media_image; ?>">
 										</div>
 									</div>
 								</div>

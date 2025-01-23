@@ -146,18 +146,24 @@ jQuery(document).ready(function ($) {
 	// Initialize Glide.js for the desktop carousel
     var glideDesktop = new Glide('#carousel-hero-desktop', {
         type: 'carousel',
-        autoplay: 5000, // Adjust as needed
+        autoplay: false, // Adjust as needed
 		animationDuration: 800,
-		navigation: false // Enable navigation arrows
+		navigation: false, // Enable navigation arrows
+		focusAt: '0',
+		startAt: 0,
+		gap: 10,
     });
     glideDesktop.mount();
 
     // Initialize Glide.js for the mobile carousel
     var glideMobile = new Glide('#carousel-hero-mobile', {
         type: 'carousel',
-        autoplay: 5000, // Adjust as needed
+        autoplay: false, // Adjust as needed
 		animationDuration: 800,
-		navigation: false // Enable navigation arrows
+		navigation: false, // Enable navigation arrows
+		focusAt: '0',
+		startAt: 0,
+		gap: 10,
     });
     glideMobile.mount();
 
