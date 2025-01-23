@@ -386,7 +386,7 @@ a.button--large,
 a.button--accent-color,
 .button--accent-color {
 	background-color: var(--accent-color);
-	color: var(--secondary-color);
+	color: var(--copy);
 }
 
 a.button--accent-color:hover,
@@ -755,12 +755,6 @@ textarea {
 	background-image: url(images/arrow-right-sharp-light.svg);
 }
 
-.hero .glide__slide .content h1 {
-	font-size: var(--font-3x);
-	font-weight: 600;
-	padding: 0 1em;
-}
-
 /****************************************
  Grid
 ****************************************/
@@ -875,7 +869,10 @@ textarea {
 .hero h1 {
 	color: #fff;
 	padding: 0 2em 0 0;
-	text-shadow: 1px 0 8px #333;
+}
+
+.hero h1 span {
+	color: var(--accent-color);
 }
 
 .hero,
@@ -954,19 +951,39 @@ textarea {
 	padding: 1em 0;
 }
 
-.hero.is-desktop .glide__slide:before,
+.hero .glide__slide .content h1 {
+	font-size: var(--font-4x);
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 0 .5em 0;
+}
+
+.hero .content p {
+	color: #fff;
+	margin: 0 0 1em 0;
+}
+
+.hero .column-half.media {
+	text-align: center;
+}
+
+.hero .column-half.media img {
+	height: 350px;
+}
+
+.hero.is-desktop .glide__slide:before, 
 .hero.is-mobile .glide__slide:before {
-	background-color: #000;
-	bottom: 0;
-	content: "";
-	display: block;
-	left: 0;
-	position: absolute;
-	opacity: .10;
-	right: 0;
-	top: 0;
-	width: 100%;
-	z-index: 2;
+    background-color: var(--secondary-color);
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    opacity: .35;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .home .hero.is-desktop .glide__slide,
@@ -975,6 +992,12 @@ textarea {
 .hero .inner,
 .hero .columns {
 	min-height: 600px;
+}
+
+.home .hero.is-desktop .glide__slide .inner,
+.hero .inner {
+	position: relative;
+	z-index: 10;
 }
 
 .hero ul.glide__slides {
@@ -1579,14 +1602,15 @@ a#popup-sp__cta,
 ****************************************/
 .section {
 	display: block;
-	padding: 2em 1em;
+	padding: 4em 1em;
 }
 
-.pre-heading,
+.hero p.pre-heading,
 .section .pre-heading {
 	color: var(--tertiary-color);
 	font-size: var(--base-font);
-	margin: 0;
+	font-weight: 500;
+	margin: 0 0 .5em 0;
 	text-transform: uppercase;
 }
 
@@ -1596,10 +1620,6 @@ a#popup-sp__cta,
 	font-weight: 300;
 	line-height: 1;
 	margin: 0 0 1em 0;
-}
-
-.section.section--fifty-fifty {
-	padding: 4em 0;
 }
 
 .section--testimonials {
