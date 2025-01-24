@@ -148,10 +148,7 @@ jQuery(document).ready(function ($) {
         type: 'carousel',
         autoplay: false, // Adjust as needed
 		animationDuration: 800,
-		navigation: false, // Enable navigation arrows
-		focusAt: '0',
-		startAt: 0,
-		gap: 10,
+		navigation: false
     });
     glideDesktop.mount();
 
@@ -160,10 +157,7 @@ jQuery(document).ready(function ($) {
         type: 'carousel',
         autoplay: false, // Adjust as needed
 		animationDuration: 800,
-		navigation: false, // Enable navigation arrows
-		focusAt: '0',
-		startAt: 0,
-		gap: 10,
+		navigation: false
     });
     glideMobile.mount();
 

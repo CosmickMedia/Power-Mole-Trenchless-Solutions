@@ -12,8 +12,8 @@ add_filter( 'upload_mimes', 'upload_svg_files');
 
 // Enqueue scripts and styles.
 function starterpistol_scripts() {
-	wp_enqueue_style( 'theme-style', get_template_directory_uri() . '/dynamic.css', false, STARTERV, 'all' );
-    wp_enqueue_style('starterpistol-style', get_stylesheet_directory_uri() . '/style.css', STARTERV, 'all');
+	wp_enqueue_style( 'theme-style', get_template_directory_uri() . '/dynamic.css', false, 'all' );
+    wp_enqueue_style('starterpistol-style', get_stylesheet_directory_uri() . '/style.css', 'all');
 }
 
 add_action('wp_enqueue_scripts', 'starterpistol_scripts');
