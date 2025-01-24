@@ -34,36 +34,62 @@
 	
 	<?php get_template_part('template-parts/message-bar'); ?>
 	
-	<header id="masthead" class="site-header">
-		<div class="site-logo">
-			<?php 
-				$custom_logo = get_custom_logo();
-				$image_path_filename = get_template_directory_uri().'/images/logo.svg';
-			?>
+	<header id="masthead" class="site-header columns columns--vertical-center">
+		<div class="column-fourth has-logo">
+			<?php get_template_part('template-parts/mobile-menu'); ?>
+		
+			<?php if(is_front_page()) : ?>
+			<div class="site-logo">
+				<?php 
+					$custom_logo = get_custom_logo();
+					$image_path_filename = get_stylesheet_directory_uri().'/images/PMTS_Logo_left_white.svg';
+				?>
 
-			<?php if ($custom_logo) : ?>
-			<a href="<?php echo home_url(); ?>"><?php the_custom_logo(); ?></a>
-			<?php elseif($image_path_filename && file_exists( get_stylesheet_directory().'/images/logo.svg') ) : ?>
-			<a href="<?php echo home_url(); ?>"><img src="<?php echo $image_path_filename; ?>"></a>
+				<?php if ($custom_logo) : ?>
+				<a href="<?php echo home_url(); ?>"><?php the_custom_logo(); ?></a>
+				<?php elseif($image_path_filename && file_exists( get_stylesheet_directory().'/images/PMTS_Logo_left_white.svg') ) : ?>
+				<a href="<?php echo home_url(); ?>"><img src="<?php echo $image_path_filename; ?>"></a>
+				<?php else : ?>
+				<a href="<?php echo home_url(); ?>"><?php echo get_option('blogname'); ?></a>
+				<?php endif; ?>
+			</div>
 			<?php else : ?>
-			<a href="<?php echo home_url(); ?>"><?php echo get_option('blogname'); ?></a>
+			<div class="site-logo">
+				<?php 
+					$custom_logo = get_custom_logo();
+					$image_path_filename = get_stylesheet_directory_uri().'/images/PMTS_Logo_left.svg';
+				?>
+
+				<?php if ($custom_logo) : ?>
+				<a href="<?php echo home_url(); ?>"><?php the_custom_logo(); ?></a>
+				<?php elseif($image_path_filename && file_exists( get_stylesheet_directory().'/images/PMTS_Logo_left.svg') ) : ?>
+				<a href="<?php echo home_url(); ?>"><img src="<?php echo $image_path_filename; ?>"></a>
+				<?php else : ?>
+				<a href="<?php echo home_url(); ?>"><?php echo get_option('blogname'); ?></a>
+				<?php endif; ?>
+			</div>
 			<?php endif; ?>
 		</div>
-
-		<div class="site-contact">
-			<p class="phone"><?php the_field('phone', 'options'); ?></p>
-			<p class="address"><?php the_field('address', 'options'); ?></p>
-		</div>
-
-		<?php get_template_part('template-parts/navigation'); ?>
 		
-		<?php get_template_part('template-parts/mobile-menu'); ?>
-		
-		<div class="site-search">
-			<?php get_search_form(); ?>
+		<div class="column-half has-navigation">
+			<?php get_template_part('template-parts/navigation'); ?>
 		</div>
-
+		
+		<div class="column-fourth has-contact">
+			<div class="site-search">
+				<a href="#" class="site-search__icon"><i class="fas fa-search"></i></a>
+			</div>
+			
+			<a href="tel:<?php the_field('phone', 'options'); ?>" class="site-contact">
+				<label>Call Now For a Quote!</label>
+				<p class="phone"><?php the_field('phone', 'options'); ?></p>
+			</a>
+		</div>
 	</header><!-- #masthead -->
+	
+	<div class="site-search__box">
+		<?php get_search_form(); ?>
+	</div>
 
 	<div id="content" class="site-content">
 
