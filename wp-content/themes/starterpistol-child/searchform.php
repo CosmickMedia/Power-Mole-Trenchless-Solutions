@@ -4,8 +4,8 @@
 <!-- 		<input type="text" name="s" class="searchbox" maxlength="128" value="<?php // echo get_search_query();?>" placeholder="<?php // esc_attr_e('Search by product name or keyword', 'woocommerce');?>"> -->
 		<input type="hidden" name="post_type" value="search" />
 		
-<!--         <span class="input-group-btn">
+        <span class="input-group-btn">
             <button class="btn btn-default" type="submit">Search <i class="fas fa-search"></i></button>
-        </span> -->
+        </span>
     </div>
 </form>
