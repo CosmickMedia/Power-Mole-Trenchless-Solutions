@@ -1076,7 +1076,6 @@ textarea {
  Links
 ****************************************/
 a {
-	display: block;
 	color: var(--link-color);
 	text-decoration: none;
 }
