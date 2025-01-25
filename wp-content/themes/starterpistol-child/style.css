@@ -410,14 +410,14 @@ a.button--secondary-color:hover,
 a.button--transparent,
 .button--transparent {
 	background-color: transparent;
-	border: 2px solid var(--accent-color);
+	border: 2px solid var(--secondary-color);
 	border-radius: 30px;
-	color: var(--accent-color);
+	color: var(--secondary-color);
 }
 
 a.button--transparent:hover,
 .button--transparent:hover {
-	background-color: var(--accent-color);
+	background-color: var(--secondary-color);
 	color: #fff;;
 }
 
@@ -1595,11 +1595,19 @@ a#popup-sp__cta,
 }
 
 .section h2 {
+	font-size: var(--font-4x);
+}
+
+.section h3 {
+	font-size: var(--font-2x);
+}
+
+.section h2,
+.section h3 {
 	color: var(--copy);
-	font-size: var(--font-3x);
-	font-weight: 300;
+	font-weight: 600;
 	line-height: 1;
-	margin: 0 0 1em 0;
+	margin: 0;
 }
 
 .section--testimonials {
@@ -1615,6 +1623,75 @@ a#popup-sp__cta,
 
 .section--newsletter {
 	background-color: #fff;
+}
+
+.section--quick-menu,
+.section--products {
+	background-color: var(--primary-color);
+}
+
+.section--quick-menu {
+	padding: 1em 0 0 0;
+	text-align: center;
+}
+
+.section--quick-menu li {
+	display: inline-block;
+	margin: 0 1.5em 0 0;
+}
+
+.section--quick-menu li:last-child {
+	margin: 0;
+}
+
+.section--quick-menu li a {
+	border-bottom: 1px solid var(--accent-color);
+	color: #fff;
+	display: inline-block;
+	font-size: var(--font-xs);
+	font-weight: 500;
+	padding: 0 0 .5em 0;
+	text-transform: uppercase;
+}
+
+.section--quick-menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.section--about {
+	background-color: #fff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 4em 0 2em 0;
+	text-align: left;
+}
+
+.section--about h2 {
+	margin: 0 0 .25em 0;
+}
+
+.section--about h2,
+.section--about h3 {
+	color: var(--primary-color);
+}
+
+.section--about h2 span,
+.section--about h3 span {
+	color: var(--secondary-color);
+}
+
+.section--about subtitle {
+	font-weight: 500;
+}
+
+.section--about .bottom {
+    border-top: 1px solid var(--copy);
+    margin: 4em 0 0 0;
+	padding: 1em;
+}
+
+.section--about .bottom .is-cta {
+	text-align: right;
 }
 
 /****************************************

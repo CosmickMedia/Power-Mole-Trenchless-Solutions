@@ -44,6 +44,9 @@ function starterpistol_setup() {
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'starterpistol' ),
 		'mobile-menu' => esc_html__( 'Mobile Menu', 'starterpistol' ),
+		'quick-menu' => esc_html__( 'Quick Menu', 'starterpistol' ),
+		'footer-links' => esc_html__( 'Footer Links', 'starterpistol' ),
+		'product-menu' => esc_html__( 'Product Menu', 'starterpistol' )
 	) );
 
 	// Switch default core markup for search form, comment form, and comments to output valid HTML5.
