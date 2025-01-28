@@ -1694,6 +1694,25 @@ a#popup-sp__cta,
 	text-align: right;
 }
 
+.section--products:before {
+	background-image: url(/wp-content/themes/starterpistol-child/images/map-pattern-resized.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.section--products h2,
+.section--products p {
+	color: #fff;
+}
+
+.section--products h2 span {
+	color: var(--accent-color);
+}
+
 /****************************************
  Single
 ****************************************/
