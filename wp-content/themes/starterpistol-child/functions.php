@@ -182,49 +182,25 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 // Custom Post Types
 function create_posttype() {
- 
-    register_post_type( 'Podcasts',
+	
+	register_post_type( 'testimonials',
     // CPT Options
         array(
             'labels' => array(
-                'name' => __( 'Podcasts' ),
-                'singular_name' => __( 'Podcast' ),
-				'menu_name' => __( 'Podcasts' ),
-				'add_new' => __( 'Add New Podcast' ), 
-				'add_new_item' => __( 'Add New Podcast' ), 
+                'name' => __( 'Testimonials' ),
+                'singular_name' => __( 'Testimonial' ),
+				'menu_name' => __( 'Testimonials' ),
+				'add_new' => __( 'Add New Testimonial' ), 
+				'add_new_item' => __( 'Add New Testimonial' ), 
             ),
             'public' => true,
             'has_archive' => true,
 			'show_ui' => true,
 			'supports'=> array( 'title', 'editor', 'revisions', 'thumbnail', 'page-attributes' ),
 			'capability_type' => 'post',
-			'taxonomies' => array('podcast_category'),
-			'menu_icon' => 'dashicons-controls-volumeon'
+			'menu_icon' => 'dashicons-megaphone'
         )
     );
-	
-	$cat_labels = array(
-		'name'              => _x( 'Categories', 'taxonomy general name', 'podcasts' ),
-		'singular_name'     => _x( 'Category', 'taxonomy singular name', 'podcasts' ),
-		'search_items'      => __( 'Search Categories', 'podcasts' ),
-		'all_items'         => __( 'All Categories', 'podcasts' ),
-		'parent_item'       => __( 'Parent Category', 'podcasts' ),
-		'parent_item_colon' => __( 'Parent Category:', 'podcasts' ),
-		'edit_item'         => __( 'Edit Category', 'podcasts' ),
-		'update_item'       => __( 'Update Category', 'podcasts' ),
-		'add_new_item'      => __( 'Add New Category', 'podcasts' ),
-		'new_item_name'     => __( 'New Category Name', 'podcasts' ),
-		'menu_name'         => __( 'Category', 'podcasts' ),
-        );
-    $podcast_category = array(
-        'hierarchical'      => true,
-        'labels'            => $cat_labels,
-        'show_ui'           => true,
-        'show_admin_column' => true,
-        'query_var'         => true
-    );
-	
-    register_taxonomy( 'podcast_category', 'podcasts', $podcast_category );
 	
 }
 
