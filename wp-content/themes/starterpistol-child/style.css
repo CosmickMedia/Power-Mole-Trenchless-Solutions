@@ -1622,17 +1622,6 @@ a#popup-sp__cta,
 	margin: 0;
 }
 
-.section--testimonials {
-	background-color: var(--lt-gray);
-	background-position: 50% 25%;
-	background-repeat: no-repeat;
-	display: block;
-	font-weight: 300;
-	line-height: 1.7;
-	padding: 2em 0 6em 0;
-	text-align: center;
-}
-
 .section--newsletter {
 	background-color: #fff;
 }
@@ -1716,8 +1705,12 @@ a#popup-sp__cta,
 	width: 100%;
 }
 
+.section--products:after,
+.section--testimonials {
+	background-color: var(--quaternary-color);
+}
+
 .section--products:after {
-	background-color: var(--quaternary-color);;
     content: "";
     display: block;
     min-height: 200px;
@@ -1769,6 +1762,30 @@ a#popup-sp__cta,
 
 .section--cta .button-group a:first-child {
 	margin: 0 1em 0 0;
+}
+
+.section--testimonials {
+	padding: 0 0 3em 0;
+	position: relative;
+	text-align: center;
+}
+
+.section--testimonials:before {
+	background-image: url(../starterpistol-child/images/infinity-circle.png);
+	background-repeat: no-repeat;
+	bottom: 0;
+	content: "";
+	height: 564px;
+	left: 50%;
+	overflow: hidden;
+	position: absolute;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 100%;
+}
+
+.section--testimonials h2 {
+	color: var(--primary-color);
 }
 
 /****************************************
