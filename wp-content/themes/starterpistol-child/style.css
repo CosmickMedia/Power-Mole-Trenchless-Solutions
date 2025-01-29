@@ -1694,13 +1694,16 @@ a#popup-sp__cta,
 	text-align: right;
 }
 
-.section--products:before {
-	background-image: url(/wp-content/themes/starterpistol-child/images/map-pattern-resized.svg);
+.section--products {
+	position: relative;
+}
+
+.section--products {
+	background-image: url(../starterpistol-child/images/map-pattern-resized.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	content: "";
 	display: block;
-	height: 100%;
 	width: 100%;
 }
 
