@@ -1005,3 +1005,7 @@ Stack trace:
 					AND status IN ('wc-completed', 'wc-refunded')
 				ORDER BY date_created_gmt DESC
 				LIMIT 20; made by do_action_ref_array('woocommerce_tracker_send_event'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Tracker::send_tracking_data, WC_Tracker::get_tracking_data, WC_Tracker::get_order_snapshot, WC_Tracker::get_order_data
+[31-Jan-2025 19:21:38 UTC] Automatic updates starting...
+[31-Jan-2025 19:21:38 UTC]   Automatic plugin updates starting...
+[31-Jan-2025 19:21:38 UTC]   Automatic plugin updates complete.
+[31-Jan-2025 19:21:38 UTC] Automatic updates complete.
