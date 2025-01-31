@@ -1771,11 +1771,12 @@ a#popup-sp__cta,
 }
 
 .section--testimonials:before {
-	background-image: url(../starterpistol-child/images/infinity-circle.png);
+	background-image: url(../starterpistol-child/images/infinity-circle-fullwidth.png);
+	background-position: 50%;
 	background-repeat: no-repeat;
 	bottom: 0;
 	content: "";
-	height: 564px;
+	height: 565px;
 	left: 50%;
 	overflow: hidden;
 	position: absolute;
@@ -1786,6 +1787,42 @@ a#popup-sp__cta,
 
 .section--testimonials h2 {
 	color: var(--primary-color);
+	margin: 0 0 .25em 0;
+}
+
+.section--testimonials h3 {
+	font-size: var(--base-font);
+    padding: 2em 0 0 0;
+    text-transform: uppercase;
+}
+
+.section--testimonials .content p {
+	margin: 2em 0;
+}
+
+.section--testimonials .glide__arrows {
+    left: 50%;
+    position: absolute;
+	top: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 100;
+}
+
+.section--testimonials .glide__arrow--left, 
+.section--testimonials .glide__arrow--right {
+	background-color: transparent;
+	position: static;
+    width: auto;
+}
+
+.section--testimonials .glide__arrow--left:before,
+.section--testimonials .glide__arrow--right:before {
+    -webkit-filter: brightness(0) saturate(100%) invert(14%) sepia(8%) saturate(351%) hue-rotate(149deg) brightness(99%) contrast(90%);
+    filter: brightness(0) saturate(100%) invert(14%) sepia(8%) saturate(351%) hue-rotate(149deg) brightness(99%) contrast(90%);
+    height: 16px;
+    width: 16px;
 }
 
 /****************************************
@@ -2474,6 +2511,26 @@ ul.tabs li.tab__main-title.current h3 {
 .testimonial__item a {
 	display: block;
 	text-decoration: none;
+}
+
+.testimonial-info {
+	font-size: var(--font-xs);
+}
+
+span.star:before {
+    background-image: url(images/star-sharp-solid.svg);
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    -webkit-filter: brightness(0) saturate(100%) invert(92%) sepia(36%) saturate(2203%) hue-rotate(360deg) brightness(106%) contrast(100%);
+    filter: brightness(0) saturate(100%) invert(92%) sepia(36%) saturate(2203%) hue-rotate(360deg) brightness(106%) contrast(100%);
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+p.rating {
+	margin: 0;
 }
 
 /****************************************

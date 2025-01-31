@@ -160,5 +160,16 @@ jQuery(document).ready(function ($) {
 		navigation: false
     });
     glideMobile.mount();
+	
+	// Initialize Glide.js for testimonials
+	var glide = new Glide('#carousel-testimonial', {
+        type: 'carousel',
+        perView: 1,
+        hoverpause: true,
+        autoplay: 5000,
+        animationDuration: 800,
+    });
+
+    glide.mount();
 
 });
