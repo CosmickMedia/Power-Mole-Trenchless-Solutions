@@ -643,6 +643,10 @@ span[class*="socicon-"]:hover:before {
 	background-image: url(images/yammer.svg);
 }
 
+.socicon-yelp:before {
+	background-image: url(images/yelp.svg);
+}
+
 .socicon-youtube:before {
 	background-image: url(images/youtube-brands.svg);
 }

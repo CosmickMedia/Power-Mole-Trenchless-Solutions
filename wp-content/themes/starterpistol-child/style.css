@@ -1555,13 +1555,17 @@ a#popup-sp__cta,
  Prefooter
 ****************************************/
 .pre-footer {
-	background-color: var(--lt-gray);
+	background-color: #f3fbff;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-weight: 300;
 	padding: 3em 0;
 } 
+
+.pre-footer .site-logo {
+	display: block;
+}
 
 /****************************************
  Posts and Pages
@@ -1858,9 +1862,7 @@ a#popup-sp__cta,
  Site Footer
 ****************************************/
 .site-footer {
-	background-color: #fff;
-	border-top: 1px solid var(--lt-gray);
-	clear: both;
+	background-color: #f3fbff;
 	color: var(--copy);
 	font-size: var(--font-xs);
 	padding: .5em 0;
