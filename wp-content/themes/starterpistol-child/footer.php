@@ -17,17 +17,8 @@
 	<div class="backtotop"><a href="#backtotop"></a></div>
 		
 		<div class="l-constrain">
-			
-			<?php get_template_part('template-parts/social-media-footer'); ?>
-
-			<div class="site-footer__widgets">
-				<?php dynamic_sidebar( 'site_footer_widget_1' ); ?>
-				<?php dynamic_sidebar( 'site_footer_widget_2' ); ?>
-				<?php dynamic_sidebar( 'site_footer_widget_3' ); ?>
-			</div>
-
 			<div class="site-info">
-				Copyright © <?php echo date("Y"); ?> <span><?php bloginfo( 'name' ); ?></span>. All Rights Reserved. Developed by <a href="<?php the_field('department_link', 'options'); ?>" target="_blank"><?php the_field('department', 'options'); ?></a>.
+				Copyright © 2020-<?php echo date("Y"); ?> <span><?php bloginfo( 'name' ); ?></span>. All Rights Reserved. Developed by <a href="<?php the_field('department_link', 'options'); ?>" target="_blank"><?php the_field('department', 'options'); ?></a>.
 			</div><!-- .site-info -->
 
 		</div>
