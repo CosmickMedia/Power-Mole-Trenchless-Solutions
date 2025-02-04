@@ -23,11 +23,11 @@
 	    </div>
 	    <div class="column-fourths">
 			<h3>Quick Links</h3>
-	    	<p>Lorem ipsum dolor sit amet, consectutuce adispacinai selit.<p>
+	    	<?php get_template_part('template-parts/footer-links-menu'); ?>
 	    </div>
 		<div class="column-fourths">
 			<h3>Products</h3>
-	    	<p>Lorem ipsum dolor sit amet, consectutuce adispacinai selit.<p>
+	    	<?php get_template_part('template-parts/product-menu'); ?>
 	    </div>
 		<div class="column-fourths">
 			<h3>Get In Touch</h3>
