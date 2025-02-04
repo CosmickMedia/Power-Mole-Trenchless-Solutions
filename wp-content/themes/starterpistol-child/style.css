@@ -640,14 +640,15 @@ input[type=time],
 input[type=datetime],
 input[type=datetime-local],
 input[type=color],
-textarea {
-	background-color: transparent;
+textarea,
+select {
+	background-color: #fff;
 	border: none;
-	border-bottom: 1px solid var(--copy);
-	border-radius: 0;
+	border-radius: 5px;
 	color: #000;
 	font-family: var(--font-family);
 	font-size: var(--base-font);
+	margin: 0 0 .5em 0;
 	padding: 15px;
 	text-align: left;
 	max-width: 100%;
@@ -668,7 +669,8 @@ input[type=time]:focus,
 input[type=datetime]:focus,
 input[type=datetime-local]:focus,
 input[type=color]:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
 	color: var(--copy);
 }
 
@@ -699,19 +701,18 @@ textarea {
 }
 
 .gform_footer .gform_button {
-	background-color: var(--secondary-color) !important;
-	border: 2px solid var(--secondary-color);
-	color: #fff !important;
+	background-color: var(--accent-color) !important;
+	border-radius: 20px;
+	color: var(--copy) !important;
 	font-size: var(--font-md);
 	margin: 1em 0 0 0 !important;
 	padding: 0.5em 3em !important;
-	text-transform: uppercase !important;
-	width: auto;
+	text-transform: capitalize !important;
+	width: 100%;
 }
 
 .gform_footer .gform_button:hover, .gform_footer .gform_button:focus { 
-  background-color: var(--primary-color) !important;
-  border: 2px solid var(--primary-color);
+  background-color: var(--copy) !important;
   color: #fff !important;
 }
 
@@ -719,6 +720,17 @@ textarea {
     font-weight: 300 !important;
     font-size: var(--font-sm) !important;
 }
+
+body .gform_wrapper .gfield_checkbox label a,
+body .gform_wrapper .gfield_checkbox label {
+    font-size: var(--font-xs) !important;
+    color: #fff;
+}
+
+body .gform_wrapper .gfield_checkbox label a:hover {
+    text-decoration: underline;
+}
+
 
 /****************************************
  Glide
@@ -1846,6 +1858,34 @@ a#popup-sp__cta,
     filter: brightness(0) saturate(100%) invert(14%) sepia(8%) saturate(351%) hue-rotate(149deg) brightness(99%) contrast(90%);
     height: 16px;
     width: 16px;
+}
+
+.section--contact {
+	background-color: var(--secondary-color);
+}
+
+.section--contact .inner {
+	background-color: #fff;
+	padding: 2em;
+}
+
+.section--contact .media h3 {
+	color: #fff;
+	margin: 0 0 1em 0;
+}
+
+.section--contact .content .directions {
+	display: none;
+}
+
+.section--contact .phone-numbers {
+	list-style: none;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+.section--contact .phone-numbers label {
+	font-weight: 600;
 }
 
 /****************************************

@@ -1024,3 +1024,6 @@ Stack trace:
 [04-Feb-2025 19:16:56 UTC] PHP Parse error:  syntax error, unexpected token ":" in /Users/aramirez/GitHub/PowerMole/wp-content/themes/starterpistol-child/template-parts/pre-footer.php on line 36
 [04-Feb-2025 19:21:03 UTC] Automatic updates starting...
 [04-Feb-2025 19:21:03 UTC] Automatic updates complete.
+[04-Feb-2025 22:22:00 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/gravityforms/includes/form-editor/renderer/class-gf-form-editor-renderer.php on line 30
+[04-Feb-2025 22:24:32 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/gravityforms/includes/form-editor/renderer/class-gf-form-editor-renderer.php on line 30
+[04-Feb-2025 22:28:00 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/gravityforms/includes/form-editor/renderer/class-gf-form-editor-renderer.php on line 30
