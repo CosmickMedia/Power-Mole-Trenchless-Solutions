@@ -2418,6 +2418,18 @@ a#popup-sp__cta,
     filter: brightness(0) saturate(100%) invert(21%) sepia(11%) saturate(1502%) hue-rotate(162deg) brightness(91%) contrast(82%);
 }
 
+span[class*="socicon-"]:before {
+    -webkit-filter: brightness(0) saturate(100%);
+    filter: brightness(0) saturate(100%);
+    height: 18px;
+    width: 18px;
+}
+
+span[class*="socicon-"]:hover:before {
+	-webkit-filter: brightness(0) saturate(100%) invert(13%) sepia(31%) saturate(5598%) hue-rotate(212deg) brightness(87%) contrast(111%);
+    filter: brightness(0) saturate(100%) invert(13%) sepia(31%) saturate(5598%) hue-rotate(212deg) brightness(87%) contrast(111%);
+}
+
 /****************************************
  Tabs
 ****************************************/
