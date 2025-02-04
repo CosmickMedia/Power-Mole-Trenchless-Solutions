@@ -19,7 +19,7 @@
 			
 			<small>For more than six decades, Power Mole Trenchless Solutions has been manufacturing Power Mole Trenchless Equipment.</small>
 			
-			<small><strong>All Power Mole manufactured products are built in the USA.</strong></small>
+			<p><small><strong>All Power Mole manufactured products are built in the USA.</strong></small></p>
 	    </div>
 	    <div class="column-fourths">
 			<h3>Quick Links</h3>
@@ -32,6 +32,8 @@
 		<div class="column-fourths">
 			<h3>Get In Touch</h3>
 			<?php get_template_part('template-parts/locations'); ?>
+
+			<a href="tel:<?php echo esc_html(get_field('phone', 'options')); ?>"><?php echo esc_html(get_field('phone', 'options')); ?></a>
 			
 	    	<?php get_template_part('template-parts/social-media-footer'); ?>
 	    </div>
