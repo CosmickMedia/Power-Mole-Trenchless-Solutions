@@ -1,7 +1,7 @@
 <div class="pre-footer">
   <div class="l-constrain">
     <div class="columns">
-	    <div class="column-fourths">
+	    <div class="column-fourths has-logo">
 			<div class="site-logo">
 				<?php 
 					$custom_logo = get_custom_logo();
@@ -17,7 +17,7 @@
 				<?php endif; ?>
 			</div>
 			
-			<small>For more than six decades, Power Mole Trenchless Solutions has been manufacturing Power Mole Trenchless Equipment.</small>
+			<p><small>For more than six decades, Power Mole Trenchless Solutions has been manufacturing Power Mole Trenchless Equipment.</small></p>
 			
 			<p><small><strong>All Power Mole manufactured products are built in the USA.</strong></small></p>
 	    </div>
