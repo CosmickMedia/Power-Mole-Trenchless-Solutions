@@ -39,6 +39,10 @@ ul.three-column li {
 	margin: 0 0 1em 0;
 }
 
+small {
+	line-height: 1.2;
+}
+
 /************************************************
  Accordion
 ************************************************/
@@ -257,10 +261,10 @@ a.learn-more,
 
 .blog-item--related .content {
     background-color: #fff;
-    margin: -50px auto 0 auto;
-    padding: 2em;
+    margin: 0 auto;
+    padding: 1em 0;
     position: relative;
-    width: 80%;
+    width: 100%;
     z-index: 100;
 }
 
@@ -275,14 +279,19 @@ a.learn-more,
 	width: 100%;
 }
 
-.blog-item--related .content h2 {
+.blog-item--related .content h3 {
     font-size: var(--font-lg);
 	font-weight: 600;
     line-height: 1.2;
 }
 
-.blog-item--related .content h2 a {
-	color: #000;
+.blog-item--related .content h3 a {
+	color: var(--primary-color);
+}
+
+.blog-item--related .content h3 a:hover {
+	color: var(--secondary-color);
+	text-decoration: underline;
 }
 
 /****************************************
@@ -1578,6 +1587,7 @@ a#popup-sp__cta,
 .pre-footer p,
 .pre-footer a {
 	font-size: var(--font-sm);
+	margin: 0;
 }
 
 .pre-footer a:hover {
@@ -1596,6 +1606,10 @@ a#popup-sp__cta,
 
 .pre-footer .navigation ul li {
     margin: 0 0 1em 0;
+}
+
+.pre-footer .has-logo p {
+	margin: 0 0 1em 0;
 }
 
 /****************************************
@@ -1639,6 +1653,11 @@ a#popup-sp__cta,
 	font-weight: 500;
 	margin: 0 0 .5em 0;
 	text-transform: uppercase;
+}
+
+.section--blogs .pre-heading {
+	color: var(--secondary-color);
+	font-size: var(--font-sm);
 }
 
 .section h2 {
@@ -1880,12 +1899,28 @@ a#popup-sp__cta,
 
 .section--contact .phone-numbers {
 	list-style: none;
-	margin: 0 0 1em 0;
+	margin: 0 0 2em 0;
 	padding: 0;
 }
 
 .section--contact .phone-numbers label {
 	font-weight: 600;
+}
+
+.section--blogs h2 {
+	margin: 0 0 .25em 0;
+}
+
+.section--blogs h2 span {
+	color: var(--secondary-color);
+}
+
+.section--blogs .section-head {
+	margin: 0 0 2em 0;
+}
+
+.section--blogs .section-head .content p {
+	text-align: right;
 }
 
 /****************************************
@@ -2784,6 +2819,16 @@ p.rating {
 		display: grid;
 		-ms-grid-columns: (48% [col-start])[2];
 		grid-template-columns: repeat(2, 48% [col-start]);
+	}
+	
+	.column-half,
+	.column-thirds,
+	.column-fourths,
+	.columns--grid-thirds,
+	.columns--grid-fourths,
+	.columns--grid-fifths,
+	.columns--grid-sixths {
+		margin: 0 0 1em 0;
 	}
 
 	.site-footer__widgets {
