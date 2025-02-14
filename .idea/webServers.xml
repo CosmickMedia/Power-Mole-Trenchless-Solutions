@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5c9d28ae-62f1-4fd7-8eca-cc771c013384" name="Power Mole Trenchless Solutions - Kinsta" url="https://stg-powermoletrenchlesssolutions-staging.kinsta.cloud/">
+        <fileTransfer accessType="SFTP" host="35.236.219.140" port="44264" sshConfigId="e547a4bd-9643-40a5-b5c9-c1038c7081c4" sshConfig="powermoletrenchlesssolutions@35.236.219.140:44264 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
