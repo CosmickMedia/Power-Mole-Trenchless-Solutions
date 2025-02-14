@@ -7,7 +7,56 @@
 // include_once 'inc/acf-functions.php';
 // include_once 'inc/gf-functions.php';
 
-define( 'STARTERV', '1.0.0' );
+require_once 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php';
+
+use YahnisElsts\PluginUpdateChecker\v5p5\PucFactory;
+
+class POWER_MOLE_TRENCHLESS {
+    public $theme_version = '';
+    public $theme_slug = 'power-mole-trenchless-solutions'; // Ensure this matches the text domain used in style.css
+    public $theme_repo = 'https://github.com/CosmickMedia/Power-Mole-Trenchless-Solutions';
+    public $theme_branch = 'production'; // Adjust this if you use a different branch for releases
+
+    public function __construct() {
+        $this->setup_constants();
+        $this->setup_local_server();
+        $this->update_theme();
+        $this->load_addons();
+
+        add_action('wp_body_open', [$this, 'wp_body_open']);
+        add_action('admin_enqueue_scripts', [$this, 'admin_enqueue_scripts']);
+        add_action('init', [$this, 'init']);
+        add_action('template_redirect', [$this, 'template_redirect']);
+    }
+
+    public function setup_constants() {
+        $this->theme_version = defined('STARTERV') ? STARTERV : '1.0.0';
+        define('THEME_VERSION', $this->theme_version);
+    }
+
+    public function setup_local_server() {
+        if (defined('WP_ENVIRONMENT_TYPE') && WP_ENVIRONMENT_TYPE === 'local' && !isset($_GET['show_errors'])) {
+            error_reporting(0);
+        }
+    }
+
+    public function update_theme() {
+        $theme_update = PucFactory::buildUpdateChecker(
+            $this->theme_repo,
+            get_template_directory() . '/style.css',
+            $this->theme_slug
+        );
+
+        $theme_update->setBranch($this->theme_branch);
+        $theme_update->setAuthentication('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'); // Hardcoded GitHub token, replace later with a secure method
+
+        if (isset($_GET['force-check'])) {
+            $theme_update->checkForUpdates();
+        }
+    }
+}
+
+
 
 if ( ! function_exists( 'starterpistol_setup' ) ) :
 /**
