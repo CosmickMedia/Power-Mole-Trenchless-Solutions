@@ -1,0 +1,24 @@
+name: Deploy to Kinsta
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Deploy to Kinsta
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.KINSTA_SFTP_HOST }}
+        username: ${{ secrets.KINSTA_SFTP_USERNAME }}
+        password: ${{ secrets.KINSTA_SFTP_PASSWORD }}
+        port: 44264
+        source: "."
+        target: "/www/powermoletrenchlesssolutions_150/public"
