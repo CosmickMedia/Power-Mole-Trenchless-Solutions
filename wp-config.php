@@ -83,15 +83,14 @@ define('WP_DEBUG_DISPLAY', false);
 
 define('WP_POST_REVISIONS', 5);
 
+define('GITHUB_TOKEN', getenv('GITHUB_TOKEN'));
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
-
-// Inside wp-config.php
-define('GITHUB_TOKEN', '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');
 
 
 /** Sets up WordPress vars and included files. */
