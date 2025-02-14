@@ -1029,3 +1029,104 @@ Stack trace:
 [04-Feb-2025 22:28:00 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /Users/aramirez/GitHub/PowerMole/wp-content/plugins/gravityforms/includes/form-editor/renderer/class-gf-form-editor-renderer.php on line 30
 [05-Feb-2025 19:47:53 UTC] Automatic updates starting...
 [05-Feb-2025 19:47:54 UTC] Automatic updates complete.
+[14-Feb-2025 23:16:03 UTC] PHP Warning:  require_once(vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php): Failed to open stream: No such file or directory in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:11
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-settings.php(672): include()
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-config.php(99): require_once('/Users/aramirez...')
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-load.php(50): require_once('/Users/aramirez...')
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-admin/admin-ajax.php(22): require_once('/Users/aramirez...')
+#4 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/aramirez/GitHub/powermole-kinsta/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[14-Feb-2025 23:16:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/aramirez/GitHub/powermole-kinsta/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[14-Feb-2025 23:16:08 UTC] PHP Warning:  require_once(vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php): Failed to open stream: No such file or directory in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:11
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-settings.php(672): include()
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-config.php(99): require_once('/Users/aramirez...')
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-load.php(50): require_once('/Users/aramirez...')
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-admin/admin.php(34): require_once('/Users/aramirez...')
+#4 /Users/aramirez/GitHub/powermole-kinsta/wp-admin/options-permalink.php(10): require_once('/Users/aramirez...')
+#5 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:09 UTC] PHP Warning:  require_once(vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php): Failed to open stream: No such file or directory in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:11
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-settings.php(672): include()
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-config.php(99): require_once('/Users/aramirez...')
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-load.php(50): require_once('/Users/aramirez...')
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#4 /Users/aramirez/GitHub/powermole-kinsta/index.php(17): require('/Users/aramirez...')
+#5 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:18 UTC] PHP Warning:  require_once(vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php): Failed to open stream: No such file or directory in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:11
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-settings.php(672): include()
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-config.php(99): require_once('/Users/aramirez...')
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-load.php(50): require_once('/Users/aramirez...')
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-admin/admin.php(34): require_once('/Users/aramirez...')
+#4 /Users/aramirez/GitHub/powermole-kinsta/wp-admin/index.php(10): require_once('/Users/aramirez...')
+#5 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:19 UTC] PHP Warning:  require_once(vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php): Failed to open stream: No such file or directory in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:11
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-settings.php(672): include()
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-config.php(99): require_once('/Users/aramirez...')
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-load.php(50): require_once('/Users/aramirez...')
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#4 /Users/aramirez/GitHub/powermole-kinsta/index.php(17): require('/Users/aramirez...')
+#5 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:31 UTC] PHP Warning:  require_once(vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php): Failed to open stream: No such file or directory in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:11
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-settings.php(672): include()
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-config.php(99): require_once('/Users/aramirez...')
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-load.php(50): require_once('/Users/aramirez...')
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#4 /Users/aramirez/GitHub/powermole-kinsta/index.php(17): require('/Users/aramirez...')
+#5 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:36 UTC] PHP Warning:  require_once(vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php): Failed to open stream: No such file or directory in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:11
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-settings.php(672): include()
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-config.php(99): require_once('/Users/aramirez...')
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-load.php(50): require_once('/Users/aramirez...')
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#4 /Users/aramirez/GitHub/powermole-kinsta/index.php(17): require('/Users/aramirez...')
+#5 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:59 UTC] PHP Warning:  require_once(vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php): Failed to open stream: No such file or directory in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:16:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:11
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-settings.php(672): include()
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-config.php(99): require_once('/Users/aramirez...')
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-load.php(50): require_once('/Users/aramirez...')
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-blog-header.php(13): require_once('/Users/aramirez...')
+#4 /Users/aramirez/GitHub/powermole-kinsta/index.php(17): require('/Users/aramirez...')
+#5 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 11
+[14-Feb-2025 23:21:18 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "STARTERV" in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php:153
+Stack trace:
+#0 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/class-wp-hook.php(324): starterpistol_child_scripts('')
+#1 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#4 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/general-template.php(3064): do_action('wp_head')
+#8 /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/header.php(23): wp_head()
+#9 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/template.php(810): require_once('/Users/aramirez...')
+#10 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/template.php(745): load_template('/Users/aramirez...', true, Array)
+#11 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/front-page.php(11): get_header()
+#13 /Users/aramirez/GitHub/powermole-kinsta/wp-includes/template-loader.php(106): include('/Users/aramirez...')
+#14 /Users/aramirez/GitHub/powermole-kinsta/wp-blog-header.php(19): require_once('/Users/aramirez...')
+#15 /Users/aramirez/GitHub/powermole-kinsta/index.php(17): require('/Users/aramirez...')
+#16 {main}
+  thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 153

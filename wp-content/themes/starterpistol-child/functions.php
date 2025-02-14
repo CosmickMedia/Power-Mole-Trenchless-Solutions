@@ -7,6 +7,7 @@
 // include_once 'inc/acf-functions.php';
 // include_once 'inc/gf-functions.php';
 
+define( 'STARTERV', '1.0.0' );
 
 require_once 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php';
 
