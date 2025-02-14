@@ -83,7 +83,9 @@ define('WP_DEBUG_DISPLAY', false);
 
 define('WP_POST_REVISIONS', 5);
 
+
 define('GITHUB_TOKEN', getenv('GITHUB_TOKEN'));
+
 
 /* That's all, stop editing! Happy publishing. */
 
@@ -91,7 +93,6 @@ define('GITHUB_TOKEN', getenv('GITHUB_TOKEN'));
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
-
 
 /** Sets up WordPress vars and included files. */
 @include_once('/var/lib/sec/wp-settings-pre.php'); // Added by SiteGround WordPress management system

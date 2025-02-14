@@ -7,6 +7,7 @@
 // include_once 'inc/acf-functions.php';
 // include_once 'inc/gf-functions.php';
 
+
 require_once 'vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php';
 
 use YahnisElsts\PluginUpdateChecker\v5p5\PucFactory;
@@ -54,8 +55,6 @@ class POWER_MOLE_TRENCHLESS {
         }
     }
 }
-
-
 
 
 if ( ! function_exists( 'starterpistol_setup' ) ) :
