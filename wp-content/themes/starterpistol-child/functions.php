@@ -13,20 +13,14 @@ use YahnisElsts\PluginUpdateChecker\v5p5\PucFactory;
 
 class POWER_MOLE_TRENCHLESS {
     public $theme_version = '';
-    public $theme_slug = 'power-mole-trenchless-solutions'; // Ensure this matches the text domain used in style.css
+    public $theme_slug = 'power-mole-trenchless-solutions';
     public $theme_repo = 'https://github.com/CosmickMedia/Power-Mole-Trenchless-Solutions';
-    public $theme_branch = 'production'; // Adjust this if you use a different branch for releases
+    public $theme_branch = 'production';
 
     public function __construct() {
         $this->setup_constants();
         $this->setup_local_server();
         $this->update_theme();
-        $this->load_addons();
-
-        add_action('wp_body_open', [$this, 'wp_body_open']);
-        add_action('admin_enqueue_scripts', [$this, 'admin_enqueue_scripts']);
-        add_action('init', [$this, 'init']);
-        add_action('template_redirect', [$this, 'template_redirect']);
     }
 
     public function setup_constants() {
@@ -41,6 +35,8 @@ class POWER_MOLE_TRENCHLESS {
     }
 
     public function update_theme() {
+        $github_token = defined('GITHUB_TOKEN') ? GITHUB_TOKEN : null;
+
         $theme_update = PucFactory::buildUpdateChecker(
             $this->theme_repo,
             get_template_directory() . '/style.css',
@@ -48,13 +44,17 @@ class POWER_MOLE_TRENCHLESS {
         );
 
         $theme_update->setBranch($this->theme_branch);
-        $theme_update->setAuthentication('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'); // Hardcoded GitHub token, replace later with a secure method
+
+        if ($github_token) {
+            $theme_update->setAuthentication($github_token);
+        }
 
         if (isset($_GET['force-check'])) {
             $theme_update->checkForUpdates();
         }
     }
 }
+
 
 
 

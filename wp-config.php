@@ -90,6 +90,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
+// Inside wp-config.php
+define('GITHUB_TOKEN', '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');
+
+
 /** Sets up WordPress vars and included files. */
 @include_once('/var/lib/sec/wp-settings-pre.php'); // Added by SiteGround WordPress management system
 require_once ABSPATH . 'wp-settings.php';
