@@ -1,5 +1,5 @@
 <?php
-	$pmts_logo = get_stylesheet_directory_uri().'/images/PMTS-mole-only.svg';
+	$pmts_logo = get_stylesheet_directory_uri().'/images/PMTS-Mole-Only.svg';
 ?>
 
 <div class="section section--cta">

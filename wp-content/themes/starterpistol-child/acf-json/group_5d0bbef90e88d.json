@@ -1,0 +1,182 @@
+{
+    "key": "group_5d0bbef90e88d",
+    "title": "Social Media",
+    "fields": [
+        {
+            "key": "field_5e6fd8525bda2",
+            "label": "Social Networks",
+            "name": "social_networks",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Social Network",
+            "sub_fields": [
+                {
+                    "key": "field_5e6fd8795bda3",
+                    "label": "Name",
+                    "name": "name",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "amazon": "Amazon",
+                        "anchor": "Anchor",
+                        "apple": "Apple",
+                        "audiomack": "Audiomack",
+                        "bandcamp": "Bandcamp",
+                        "blogger": "Blogger",
+                        "deviantart": "DeviantArt",
+                        "discord": "Discord",
+                        "email": "Email",
+                        "facebook": "Facebook",
+                        "flickr": "Flickr",
+                        "github": "GitHub",
+                        "houzz": "Houzz",
+                        "instagram": "Instagram",
+                        "lastfm": "Last.fm",
+                        "linkedin": "LinkedIn",
+                        "linktree": "Linktree",
+                        "meetup": "Meetup",
+                        "myspace": "Myspace",
+                        "pandora": "Pandora",
+                        "patreon": "Patreon",
+                        "paypal": "PayPal",
+                        "pinterest": "Pinterest",
+                        "playstation": "PlayStation",
+                        "reddit": "Reddit",
+                        "rss": "RSS",
+                        "skype": "Skype",
+                        "snapchat": "SnapChat",
+                        "soundcloud": "SoundCloud",
+                        "spotify": "Spotify",
+                        "stackoverflow": "Stack Overflow",
+                        "telegram": "Telegram",
+                        "tiktok": "Tiktok",
+                        "tumblr": "Tumblr",
+                        "twitter": "Twitter",
+                        "twitter-x": "Twitter \/ X",
+                        "wordpress": "WordPress",
+                        "wikipedia": "Wikipedia",
+                        "vimeo": "Vimeo",
+                        "vine": "Vine",
+                        "xbox": "Xbox",
+                        "yammer": "Yammer",
+                        "yelp": "Yelp",
+                        "youtube": "YouTube",
+                        "youtube-music": "Youtube Music"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 1,
+                    "allow_in_bindings": 1,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "parent_repeater": "field_5e6fd8525bda2"
+                },
+                {
+                    "key": "field_5f4ea89919e28",
+                    "label": "Visual Name",
+                    "name": "visual_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5e6fd8525bda2"
+                },
+                {
+                    "key": "field_5e6fd8ae5bda4",
+                    "label": "Web Address",
+                    "name": "web_address",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5e6fd8525bda2"
+                },
+                {
+                    "key": "field_5f4eaad57ce72",
+                    "label": "Button Text",
+                    "name": "button_text",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5e6fd8525bda2"
+                }
+            ],
+            "rows_per_page": 20
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-social-media"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1740092945
+}
