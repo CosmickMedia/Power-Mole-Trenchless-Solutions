@@ -1130,3 +1130,47 @@ Stack trace:
 #15 /Users/aramirez/GitHub/powermole-kinsta/index.php(17): require('/Users/aramirez...')
 #16 {main}
   thrown in /Users/aramirez/GitHub/powermole-kinsta/wp-content/themes/starterpistol-child/functions.php on line 153
+[18-Feb-2025 18:47:27 UTC] Automatic updates starting...
+[18-Feb-2025 18:47:29 UTC]   Automatic plugin updates starting...
+[18-Feb-2025 18:47:29 UTC]   Automatic plugin updates complete.
+[18-Feb-2025 18:47:30 UTC]   Automatic theme updates starting...
+[18-Feb-2025 18:47:30 UTC]   Automatic theme updates complete.
+[18-Feb-2025 18:47:30 UTC] Automatic updates complete.
+[18-Feb-2025 18:47:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_create' at line 3 for query SELECT
+					id,
+					row_number() OVER (ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_created_at,
+					date_updated_gmt AS order_updated_at,
+					currency,
+					total_amount,
+					payment_method,
+					payment_method_title
+				FROM wp_wc_orders
+				WHERE
+					type = 'shop_order'
+					AND status IN ('wc-completed', 'wc-refunded')
+				ORDER BY date_created_gmt ASC
+				LIMIT 20; made by do_action_ref_array('woocommerce_tracker_send_event'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Tracker::send_tracking_data, WC_Tracker::get_tracking_data, WC_Tracker::get_order_snapshot, WC_Tracker::get_order_data
+[18-Feb-2025 18:47:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_create' at line 3 for query SELECT
+					id,
+					row_number() OVER (ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_created_at,
+					date_updated_gmt AS order_updated_at,
+					currency,
+					total_amount,
+					payment_method,
+					payment_method_title
+				FROM wp_wc_orders
+				WHERE
+					type = 'shop_order'
+					AND status IN ('wc-completed', 'wc-refunded')
+				ORDER BY date_created_gmt DESC
+				LIMIT 20; made by do_action_ref_array('woocommerce_tracker_send_event'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Tracker::send_tracking_data, WC_Tracker::get_tracking_data, WC_Tracker::get_order_snapshot, WC_Tracker::get_order_data
+[18-Feb-2025 19:35:28 UTC] Automatic updates starting...
+[18-Feb-2025 19:35:28 UTC]   Automatic plugin updates starting...
+[18-Feb-2025 19:35:28 UTC]   Automatic plugin updates complete.
+[18-Feb-2025 19:35:28 UTC]   Automatic theme updates starting...
+[18-Feb-2025 19:35:28 UTC]   Automatic theme updates complete.
+[18-Feb-2025 19:35:28 UTC] Automatic updates complete.
