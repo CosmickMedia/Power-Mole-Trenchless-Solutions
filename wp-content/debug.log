@@ -1194,3 +1194,47 @@ Stack trace:
 [20-Feb-2025 22:36:57 UTC] Automatic updates complete.
 [20-Feb-2025 23:16:29 UTC] WordPress database error BLOB, TEXT, GEOMETRY or JSON column 'image_url' can't have a default value for query ALTER TABLE wp_pmxi_images ALTER COLUMN `image_url` SET DEFAULT '' made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->fix_options, PMXI_Plugin->fix_db_schema, dbDelta
 [20-Feb-2025 23:16:29 UTC] WordPress database error BLOB, TEXT, GEOMETRY or JSON column 'image_filename' can't have a default value for query ALTER TABLE wp_pmxi_images ALTER COLUMN `image_filename` SET DEFAULT '' made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, PMXI_Plugin->fix_options, PMXI_Plugin->fix_db_schema, dbDelta
+[26-Feb-2025 16:29:04 UTC] Automatic updates starting...
+[26-Feb-2025 16:29:09 UTC]   Automatic plugin updates starting...
+[26-Feb-2025 16:29:09 UTC]   Automatic plugin updates complete.
+[26-Feb-2025 16:29:10 UTC]   Automatic theme updates starting...
+[26-Feb-2025 16:29:10 UTC]   Automatic theme updates complete.
+[26-Feb-2025 16:29:10 UTC] Automatic updates complete.
+[26-Feb-2025 16:29:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_create' at line 3 for query SELECT
+					id,
+					row_number() OVER (ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_created_at,
+					date_updated_gmt AS order_updated_at,
+					currency,
+					total_amount,
+					payment_method,
+					payment_method_title
+				FROM wp_wc_orders
+				WHERE
+					type = 'shop_order'
+					AND status IN ('wc-completed', 'wc-refunded')
+				ORDER BY date_created_gmt ASC
+				LIMIT 20; made by do_action_ref_array('woocommerce_tracker_send_event'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Tracker::send_tracking_data, WC_Tracker::get_tracking_data, WC_Tracker::get_order_snapshot, WC_Tracker::get_order_data
+[26-Feb-2025 16:29:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_create' at line 3 for query SELECT
+					id,
+					row_number() OVER (ORDER BY date_created_gmt) AS order_rank,
+					date_created_gmt AS order_created_at,
+					date_updated_gmt AS order_updated_at,
+					currency,
+					total_amount,
+					payment_method,
+					payment_method_title
+				FROM wp_wc_orders
+				WHERE
+					type = 'shop_order'
+					AND status IN ('wc-completed', 'wc-refunded')
+				ORDER BY date_created_gmt DESC
+				LIMIT 20; made by do_action_ref_array('woocommerce_tracker_send_event'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Tracker::send_tracking_data, WC_Tracker::get_tracking_data, WC_Tracker::get_order_snapshot, WC_Tracker::get_order_data
+[28-Feb-2025 22:21:42 UTC] Automatic updates starting...
+[28-Feb-2025 22:21:45 UTC]   Automatic plugin updates starting...
+[28-Feb-2025 22:21:45 UTC]   Automatic plugin updates complete.
+[28-Feb-2025 22:21:46 UTC]   Automatic theme updates starting...
+[28-Feb-2025 22:21:46 UTC]   Automatic theme updates complete.
+[28-Feb-2025 22:21:46 UTC] Automatic updates complete.

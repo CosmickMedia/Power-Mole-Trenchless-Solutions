@@ -400,8 +400,8 @@ a.button--accent-color,
 
 a.button--accent-color:hover,
 .button--accent-color:hover {
-	background-color: #fff;
-	color: var(--secondary-color);
+	background-color: var(--copy);
+	color: #fff;
 }
 
 a.button--secondary-color,
@@ -2196,12 +2196,10 @@ a#popup-sp__cta,
 /****************************************
  Site Search
 ****************************************/
-.site-search {
+.site-search,
+.site-search .bt-search-field,
+.site-search .input-group-btn {
 	display: inline-block;
-}
-
-.site-search__box {
-	display: none;
 }
 
 .site-search__icon {
@@ -2216,6 +2214,100 @@ a#popup-sp__cta,
 
 .home .site-search .fa-search {
 	color: #fff;
+}
+
+.site-search__icon,
+.site-search__icon:hover {
+	color: #fff;
+}
+
+.site-search,
+.site-search__box {
+	margin: 0 1em;
+}
+
+.site-search__box {
+	background-color: #eee;
+    border-top: 3px solid var(--primary-color);
+    box-shadow: 0px 4px 8px #00000035;
+    display: none;
+    margin: 0 1em;
+    padding: 2em;
+    position: absolute;
+    right: 160px;
+    top: 77px;
+    z-index: 100000;
+}
+
+.site-search__box .button--accent-color {
+	line-height: 1.3;
+    padding: 15px;
+}
+
+.site-search__box .button--accent-color:after {
+	display: none;
+}
+
+.search-no-results .site-search__box-internal {
+	display: none;
+}
+
+.site-search__box-internal {
+	border-bottom: 1px solid #eee;
+	padding: 2em 0;
+}
+
+.search-results article h2 {
+	border-bottom: none;
+    display: list-item;
+    font-size: var(--font-lg);
+    list-style-position: inside;
+    list-style-type: none;
+	margin: 1em 0 0 0;
+}
+
+.search-results article {
+	border-bottom: 1px solid #eee;
+	margin: 0 0 2em 0;
+}
+
+.search-results article .entry-summary {
+	margin: 0 0 2em 0;
+}
+
+.search-results article .entry-summary p {
+	color: var(--copy);
+	margin: 0;
+}
+
+.search-results .input-group,
+.site-search__box .input-group,
+.search-no-results .search-form .input-group {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.site-search__box .input-group input.form-control.bt-search-field,
+.search-results .search-form .input-group input.form-control.bt-search-field,
+.search-no-results .search-form .input-group input.form-control.bt-search-field {
+	background-color: #fff;
+    border: none;
+	-ms-flex-preferred-size: 90%;
+    flex-basis: 90%;
+	margin: 0;
+	padding: 0 1em;
+	width: 100%;
+}
+
+.site-search__box .input-group .input-group-btn .btn.btn-default,
+.search-results .search-form .input-group .input-group-btn .btn.btn-default,
+.search-no-results .search-form .input-group .input-group-btn .btn.btn-default {
+	min-height: 53px;
+}
+
+.site-search__box .input-group .input-group-btn .button {
+	border-radius: 0;
 }
 
 /****************************************

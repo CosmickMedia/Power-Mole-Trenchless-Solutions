@@ -172,4 +172,10 @@ jQuery(document).ready(function ($) {
 
     glide.mount();
 
+	// Search Dropbox
+	j('.site-search__icon').click(function(event) {
+		event.stopPropagation(); // Prevent click event from propagating to document/body
+		j('.site-search__box').slideToggle(1000);
+	});
+
 });
